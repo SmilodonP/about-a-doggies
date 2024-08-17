@@ -1,0 +1,129 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  font-weight: lighter;
+  background-color: #75e2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color:#048eaa;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold
+}
+
+.hero {
+  padding: 50px 20px;
+  background-image: url("assets/park.jpg");
+  background-blend-mode: darken;
+  background-color: #0f0b054d;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+.hero img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #048eaa;
+  margin: 10px 0;
+}
+
+.hero form {
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 420px;
+  gap: 10px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.dog-info {
+  flex: 3;
+  text-align: center;
+  text-wrap: balance;
+  text-justify: auto;
+}
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #048eaa;
+  margin: 20px 0;
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 10px 0;
+  flex-basis: auto;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 35px;
+  font-size: 0.7em;
+  font-weight: lighter;
+  background-color: #048eaa;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
